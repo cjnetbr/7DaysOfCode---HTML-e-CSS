@@ -76,4 +76,39 @@ button {
 .btn-solid{
     background-color: var(--cor-primaria);
     color: var(--cor-fundo);
-    }
+}
+
+/*section Sobre nós*/
+
+#sobre-nos{
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 96px 0;
+    align-self: stretch;
+}
+
+#sobre-nos h1{
+    text-align: center;
+    font-size: 48px;
+    width: 620px;
+    height: 60px;
+    gap: 12px;
+}
+#sobre-nos h5{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#sobre-nos p{
+    width: 790px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
