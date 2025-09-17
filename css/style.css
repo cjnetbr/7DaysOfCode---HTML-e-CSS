@@ -1,0 +1,79 @@
+/*Reset Basico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-primaria: #8E2424;
+    --cor-secundaria: #101828;
+    --cor-subtitulo: #3A404E;
+    --cor-fundo: #ffffff;
+    --cor-texto: #667085;
+    --cor-preenchimento: #C31919;
+    --fonte-principal: 'Inter', sans-serif;
+}
+    
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--cor-subtitulo);
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row; /*default pode ser tbm collum*/
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo{
+    margin-right: 100px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    flex-grow: 1;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1.0rem;
+}
+
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--cor-texto);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+
+}
+
+.btn-solid{
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
+    }
