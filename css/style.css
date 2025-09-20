@@ -148,6 +148,8 @@ button {
     line-height: 24px;
 }
 
+/*section Vagas*/
+
 #vagas {
     display: flex;
     flex-direction: column;
@@ -162,6 +164,7 @@ button {
     align-items: center;
     align-self: stretch;
     gap: 1rem;
+    padding: 0 2rem;
 }
 
 .talentos h5 {
@@ -189,4 +192,50 @@ button {
     font-size: 20px;
     font-weight: 400;
     font-weight: 30px;
+}
+
+/*cards de vagas*/
+.container-vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    width: 768px;
+}
+.container-vagas h1{
+    color: var(--cor-secundaria);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 24px 24px 28px 24px;
+    align-self: stretch;
+    border:  1px solid #EAECFF;
+    border-radius: 1rem;
+    background: var(--cor-fundo);
+
+}
+
+.vagas h3{
+    color: var(--cor-secundaria);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.vagas-desc{
+    display: flex;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+.vagas-desc span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cor-texto);
 }
